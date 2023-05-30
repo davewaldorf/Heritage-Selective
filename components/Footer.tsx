@@ -6,14 +6,14 @@ import call from '../public/call.svg';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer p-20 mt-5 bg-white text-black flex justify-between">
+    <footer className="footer md:p-20 p-5 mt-5 bg-white text-black flex justify-between">
         <div className='flex flex-col ml-10'>
           <span className="title">Shipping Information</span>
           <span className="title">Terms And Conditions</span>
           <span className="title">Privacy Policy</span>
         </div>
         <div className='flex'>
-          <div className="flex flex-col ml-20 mr-5">
+          <div className="flex flex-col ml-20 mr-10">
           <span className="footer-title">Contact</span>
             <div className='flex'>
             <Image src={email} alt="email" className="mr-2" />
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div>
-          <div className="flex items-center flex-col mr-20">
+          <div className="flex items-center flex-col mr-10">
           <span className="footer-title">Follow</span>
             <a href="https://www.instagram.com">
               Instagram

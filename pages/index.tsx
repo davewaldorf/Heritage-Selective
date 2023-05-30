@@ -1,11 +1,9 @@
 import React from 'react';
-import MainComponent from '@/components/MainComponent';
+import Banner from '@/components/Banner';
 
 const MainPage: React.FC = () => {
   return (
-        <main>
-        <MainComponent />
-        </main>
+        <Banner />
   );
 };
 
