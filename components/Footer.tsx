@@ -6,8 +6,8 @@ import call from '../public/call.svg';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer md:p-20 p-5 mt-5 bg-white text-black flex justify-between">
-        <div className='flex flex-col ml-10'>
+    <footer className="footer md:p-20 bg-white text-black flex justify-between ">
+        <div className='flex flex-col ml-10 t'>
           <span className="title">Shipping Information</span>
           <span className="title">Terms And Conditions</span>
           <span className="title">Privacy Policy</span>

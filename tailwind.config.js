@@ -7,8 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-     
+      backgroundImage: {
+        'banner': "url('../public/banner-bg-2.png')",
+      },
     },
+  },
+  daisyui: {
+    themes: ["lofi"],
   },
   plugins: [require("daisyui")],
 }
